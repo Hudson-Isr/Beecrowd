@@ -8,5 +8,5 @@ int main(){
 
     r = sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2));
 
-    printf("%.4lf",r);
+    printf("%.4lf\n",r);
 }
