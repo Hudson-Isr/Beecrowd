@@ -6,17 +6,17 @@
     //Adicinando valor.
     $valor = readline();
 
-    echo "$v\n";
+    echo "$valor\n";
 
     //Variavel contador para os 7 resultados.
     for ($x = 0; $x < 7; $x++) {
         
         //variavel auxiliar
-        $y = $valor / $notas[$i];
+        $y = $valor / $notas[$x];
 
         echo (int) $y . " nota(s) de R$ " . $notas[$x] . ",00\n";
 
-        //notas = notas resto 100,50...
+        //valor = valor resto 100,50...
         $valor %= $notas[$x];
     }
 ?>
