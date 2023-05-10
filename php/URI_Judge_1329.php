@@ -34,5 +34,5 @@ while (true) {
 
     echo "Mary won {$mary_wins} times and John won {$john_wins} times\n";
 }
-*/
+*/ 
 ?>
