@@ -18,4 +18,4 @@ for($i = 1; $i < $num; $i++){
     }
 }
 echo $valorAtual . " aparece " . $count . " vez (es)\n";
-?>
+?> 
