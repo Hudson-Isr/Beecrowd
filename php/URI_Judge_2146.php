@@ -11,4 +11,4 @@ $fibonacci = (pow($phi, $n) - pow($psi, $n)) / sqrt(5);
 
 // Imprime o valor de Fibonacci(n) com 1 casa decimal
 printf("%.1f\n", $fibonacci);
-?>
+?> 
